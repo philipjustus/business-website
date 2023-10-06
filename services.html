@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT US</title>
+    
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+html{
+    font-size: 92%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+
+body{
+    background:#eee;
+}
+
+.about .row{
+    display: flex;
+    align-items: center;
+    color:#fff;
+    flex-wrap: wrap;
+    border-radius: 2px solid#2da435;
+    background:rgb(127, 167, 8);
+    box-shadow:0 .5rem 1.5rem #06ff1b;
+}
+
+.about .row .image{
+    flex:1 1 45rem;
+}
+
+.about .row .image img{
+    width: 100%;
+}
+.about .row .content{
+    flex:1 1 45rem;
+    padding:2rem;
+}
+
+.about .row .content h3{
+    font-size: 3rem;
+    color:#fff;
+}
+
+.about .row .content p{
+    font-size: 1.6rem;
+    color:#ccc;
+    padding:1rem 0;
+    line-height: 1.8;
+}
+.footer{
+    background: #120e86;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20%,1fr));
+    gap: 2rem;
+    text-align: center;
+    padding: 4rem;
+}
+.footer h3{
+    font-size: 3.5rem;
+    margin: 2rem 0;
+    color: var(--min-color);
+}
+
+</style>
+</head>
+<body>
+    <section class="about" id="about">
+
+        <h1 class="heading"><span>SERVICES</span> OFFERED</h1>
+    
+        <div class="row">
+    
+            <div class="image">
+                <img src="1.jpg" alt="">
+            </div>
+    
+            <div class="content">
+                <h3>SERVICES OFFERED AT OUR COMPANY;</h3>
+                <p>Servicves offered at our company include;</p>
+                
+                <ol>
+                    <li>Curial services incase of imports</li>
+                    <li>Refreshments</li>
+                    <li>Discount on each vehicle sold</li>
+                </ol>
+               
+            </div>
+    
+        </div>
+    
+    </section>
+    <footer class="footer">
+        <div class="content">
+            <h3>PHILIP NGALA</h3>
+          <h3>Com/m/0008/2021</h3>
+          </div>
+    </footer>
+</body>
+</html>
